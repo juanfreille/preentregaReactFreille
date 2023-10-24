@@ -1,0 +1,79 @@
+.header__nav-user {
+  padding-left: 0;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.badge {
+  --bs-badge-padding-x: 0.65em;
+  --bs-badge-padding-y: 0.35em;
+  --bs-badge-font-size: 0.75em;
+  --bs-badge-font-weight: 700;
+  --bs-badge-color: #fff;
+  --bs-badge-border-radius: var(--bs-border-radius);
+  display: inline-block;
+  padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+  font-size: var(--bs-badge-font-size);
+  font-weight: var(--bs-badge-font-weight);
+  line-height: 1;
+  color: var(--bs-badge-color);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: var(--bs-badge-border-radius);
+}
+
+#numeroCarrito {
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  background: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2px;
+}
+
+.carrito-text {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 13px 10px;
+  position: relative;
+}
+
+.carrito-text .imagen-carrito {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  opacity: 65%;
+  margin: -3px 5px 0 0;
+}
+
+.carrito-text .carrito-nav {
+  color: #6c6c6c;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 0 0 1em;
+}
+
+.imagen-carrito {
+  margin: -3px 5px 0 0;
+}
+
+@media (max-width: 576px) {
+  #numeroCarrito {
+    left: 54%;
+  }
+  .header__nav-user {
+    border-left: none;
+  }
+  .header__nav-user div {
+    display: none;
+  }
+}
