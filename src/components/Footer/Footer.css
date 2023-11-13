@@ -1,0 +1,29 @@
+.footer_style {
+  background-color: #b0c4de;
+  border-top: 1px solid #ebebeb;
+  padding: 8px 0 8px 0;
+  margin-top: auto;
+  text-align: center;
+}
+
+.footer-icons {
+  width: 36px;
+  height: 36px;
+  background: #314652;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease-in-out;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 2px;
+}
+
+.footer-icons:hover {
+  transform: scale(1.2);
+  background: #050505;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}

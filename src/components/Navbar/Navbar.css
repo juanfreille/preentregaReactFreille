@@ -1,0 +1,17 @@
+.fixed-top {
+  position: sticky !important;
+  height: 3.5em;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.nav-link {
+  margin: 0 1rem;
+}
+.nav-link:focus,
+.nav-link:hover {
+  transform: scale(1.3);
+}

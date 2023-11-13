@@ -1,0 +1,26 @@
+.centrar {
+  text-align: center;
+}
+
+.wrapper {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  margin: 2rem 0;
+}
+.card-img {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.tarjeta-detail {
+  display: inline-block;
+  transition: border 0.15s ease-in-out;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}

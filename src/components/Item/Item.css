@@ -1,0 +1,155 @@
+.tarjeta {
+  display: inline-block;
+  max-width: 280px;
+  transition: border 0.15s ease-in-out;
+  border-radius: 4px;
+}
+
+.tarjeta:hover figcaption {
+  opacity: 1;
+}
+
+.tarjeta:hover img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.tarjeta:hover .mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.image-container {
+  position: relative;
+}
+
+.mask {
+  background-color: rgba(2, 2, 2, 0.315) !important;
+  display: none;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+figure {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+figcaption {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  padding-top: 90%;
+}
+
+.btn-detalles {
+  color: #fff !important;
+  background-color: brown !important;
+  border-radius: 3px !important;
+  width: 130px !important;
+  padding: 3px 0 !important;
+  border: 0 !important;
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  -ms-border-radius: 3px !important;
+  -o-border-radius: 3px !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.row-mio {
+  width: 100%;
+  text-align: center;
+}
+.no-selection {
+  user-select: none;
+}
+
+.btn-agregar-carrito {
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px;
+  inline-size: -webkit-fill-available;
+  font-size: 16px;
+  border: 0;
+}
+
+.thumb-wrapper {
+  padding: 0px 0px 12px 0px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.thumb-wrapper:hover {
+  box-shadow: 2px 2px 15px black;
+  /* transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01); */
+}
+
+.wish-icon {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 18px;
+  color: #abb0b8;
+}
+
+article {
+  margin: 0 0 2em 0;
+  font-family: "Asap Condensed", sans-serif;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.product-precio {
+  font-size: 17px;
+}
+
+.card-img-top {
+  border-radius: 10px !important;
+}
+
+.flexear {
+  display: flex;
+  justify-content: space-between;
+}

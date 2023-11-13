@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Pantalon Babucha",
+    "precio": 16500,
+    "imagen": "/src/assets/img/babucha.webp",
+    "tipo": "pantalones",
+    "id": 1,
+    "stock": 10
+  },
+  {
+    "nombre": "Pantalon Jeans",
+    "precio": 15500,
+    "imagen": "/src/assets/img/jeans.webp",
+    "tipo": "pantalones",
+    "id": 2,
+    "stock": 10
+  },
+  {
+    "nombre": "Pantalon Joggers",
+    "precio": 15500,
+    "imagen": "/src/assets/img/joggers.webp",
+    "tipo": "pantalones",
+    "id": 3,
+    "stock": 10
+  },
+  {
+    "nombre": "Pantalon Baggy",
+    "precio": 15500,
+    "imagen": "/src/assets/img/baggy.webp",
+    "tipo": "pantalones",
+    "id": 4,
+    "stock": 10
+  },
+  {
+    "nombre": "Buzo blue",
+    "precio": 16500,
+    "imagen": "/src/assets/img/buzo.webp",
+    "tipo": "buzos",
+    "id": 5,
+    "stock": 10
+  },
+  {
+    "nombre": "Buzo escoces",
+    "precio": 16500,
+    "imagen": "/src/assets/img/camisa.webp",
+    "tipo": "buzos",
+    "id": 6,
+    "stock": 10
+  },
+  {
+    "nombre": "Sweater grey",
+    "precio": 12500,
+    "imagen": "/src/assets/img/sweater.webp",
+    "tipo": "buzos",
+    "id": 7,
+    "stock": 10
+  },
+  {
+    "nombre": "Canguro b&w",
+    "precio": 16500,
+    "imagen": "/src/assets/img/canguro.webp",
+    "tipo": "buzos",
+    "id": 8,
+    "stock": 10
+  },
+  {
+    "nombre": "Remera Tommy",
+    "precio": 5000,
+    "imagen": "/src/assets/img/sinlogo.webp",
+    "tipo": "remeras",
+    "id": 9,
+    "stock": 1
+  },
+  {
+    "nombre": "Campera chopera",
+    "precio": 35000,
+    "imagen": "/src/assets/img/sinlogo.webp",
+    "tipo": "camperas",
+    "id": 10,
+    "stock": 1
+  }
+]
