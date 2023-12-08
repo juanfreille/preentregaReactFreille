@@ -1,0 +1,22 @@
+.antiquewhite {
+  background-color: antiquewhite;
+}
+
+.overflow {
+  height: auto;
+  max-height: 54vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+  .left-col {
+    flex-direction: column-reverse;
+  }
+  .col-8 {
+    width: 100% !important;
+    margin-top: 5% !important;
+  }
+  .col-3 {
+    width: 100% !important;
+  }
+}

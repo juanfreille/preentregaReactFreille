@@ -1,7 +1,3 @@
-.centrar {
-  text-align: center;
-}
-
 .wrapper {
   background: rgb(238, 174, 202);
   background: radial-gradient(
@@ -23,4 +19,414 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  position: relative;
+}
+
+.btn-agregar-carrito-detail2 {
+  color: white;
+  background-color: black !important;
+  border-radius: 5px 5px !important;
+  inline-size: -webkit-fill-available;
+  font-size: 16px !important;
+  border: 0 !important;
+  margin: 1rem !important;
+  font-weight: 600 !important;
+}
+
+.product-container {
+  display: flex;
+  margin: 3% 5% 15% 5%;
+}
+
+.carousel-container {
+  width: 32%;
+  margin: 0 15%;
+}
+
+.product-info {
+  width: 40%;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  right: 0px !important;
+  display: block;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  /*font-family: 'slick';*/
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: white;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: 0px !important;
+  z-index: 100;
+}
+[dir="rtl"] .slick-prev {
+  right: 0px;
+  left: auto;
+}
+.slick-prev:before {
+  content: "←";
+}
+[dir="rtl"] .slick-prev:before {
+  content: "→";
+}
+
+.slick-next {
+  right: -25px;
+}
+[dir="rtl"] .slick-next {
+  right: auto;
+  left: -25px;
+}
+.slick-next:before {
+  content: "→";
+}
+[dir="rtl"] .slick-next:before {
+  content: "←";
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25% !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20% !important;
+  height: 15% !important;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  /*font-family: 'slick';*/
+  font-size: 40px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 2px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.bimage {
+  position: relative;
+  height: 547px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.bimage img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transform: scale(var(--zoom, 1));
+  transform-origin: var(--x) var(--y);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(var(--zoom, 1));
+  -moz-transform: scale(var(--zoom, 1));
+  -ms-transform: scale(var(--zoom, 1));
+  -o-transform: scale(var(--zoom, 1));
+  cursor: zoom-in;
+}
+
+.bimage:hover {
+  --zoom: 3;
+}
+
+.product-details-thumbs .slick-slide div {
+  border: 2px solid transparent;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.slick-dots li {
+  border: 2px solid transparent;
+}
+.slick-dots li:hover,
+.slick-dots li:focus,
+.slick-dots li:active {
+  border: 2px solid burlywood;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.slick-dots.slick-thumb li.slick-active:before {
+  border-color: black !important;
+}
+
+.slick-dots.slick-thumb li.slick-active {
+  border-color: black !important;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  opacity: 1;
+}
+
+.slick-arrow.slick-next,
+.slick-arrow.slick-prev {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  opacity: 0.8;
+  height: 30px;
+  width: 30px;
+}
+
+.slick-arrow.slick-next:hover,
+.slick-arrow.slick-prev:hover {
+  opacity: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+
+.arrows {
+  height: 50px;
+  width: 50px;
+  margin: 1px;
+}
+
+.descripcion {
+  color: dimgray;
+  background: #fcfcfc;
+  border: 1px solid #f7f7f7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 10px !important;
+}
+
+.alert-warning:before {
+  content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="%23d27611"><path d="M270.2 160h35.5c3.4 0 6.1 2.8 6 6.2l-7.5 196c-.1 3.2-2.8 5.8-6 5.8h-20.5c-3.2 0-5.9-2.5-6-5.8l-7.5-196c-.1-3.4 2.6-6.2 6-6.2zM288 388c-15.5 0-28 12.5-28 28s12.5 28 28 28 28-12.5 28-28-12.5-28-28-28zm281.5 52L329.6 24c-18.4-32-64.7-32-83.2 0L6.5 440c-18.4 31.9 4.6 72 41.6 72H528c36.8 0 60-40 41.5-72zM528 480H48c-12.3 0-20-13.3-13.9-24l240-416c6.1-10.6 21.6-10.7 27.7 0l240 416c6.2 10.6-1.5 24-13.8 24z"/></svg>');
+}
+.alert:before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: text-top;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+.alert {
+  clear: both;
+  padding: 8px;
+  border: 1px solid;
+  text-align: center;
+}
+.alert-warning {
+  color: #d27611;
+  border-color: #d27611;
+}
+
+@media (max-width: 767px) {
+  .product-container {
+    flex-direction: column;
+    margin: 3% 5% 5% 5%;
+  }
+
+  .carousel-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .slick-dots {
+    bottom: -15% !important;
+  }
+
+  .product-info {
+    width: 100%;
+    margin: 25% 0 0 0;
+  }
 }

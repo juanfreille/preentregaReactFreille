@@ -1,0 +1,123 @@
+.carrito21BoxCol1 {
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.carrito21BoxCol2 {
+  width: calc(100% - 290px);
+  padding-left: 1em;
+  font-size: 0.9em;
+}
+
+.tituloNombreCart {
+  color: brown;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.iniciarCompra {
+  text-align: right;
+  margin: 5% 0 0 0;
+}
+
+ul {
+  margin: 0 0.5rem !important;
+}
+
+.textRemovers {
+  text-align: left;
+  margin: 0 0 0 2%;
+}
+
+.zoomy {
+  zoom: 250%;
+}
+
+.btn-delete {
+  background: #cf3010 !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+.btn-delete:hover {
+  background: #d34427 !important;
+}
+
+div:where(.swal2-icon) {
+  margin: -4.5em auto 0.6em !important;
+}
+
+div:where(.swal2-icon).swal2-warning {
+  background-color: #cf3010 !important;
+  color: white !important;
+  border-color: #cf3010 !important;
+}
+
+div:where(.swal2-icon).swal2-success {
+  background-color: #82ce34 !important;
+  color: white !important;
+  border-color: #82ce34 !important;
+}
+
+.swal2-popup.swal2-toast .swal2-icon {
+  margin: 0 0.5em 0 0 !important;
+}
+
+.swal2-popup.swal2-toast .swal2-title {
+  margin: 0.5em 1em !important;
+}
+
+div:where(.swal2-icon).swal2-error [class^="swal2-x-mark-line"] {
+  background-color: white !important;
+}
+
+div:where(.swal2-icon).swal2-success .swal2-success-fix {
+  background-color: transparent !important;
+}
+
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-line"][class$="long"],
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-line"][class$="tip"] {
+  background-color: white;
+}
+
+div:where(.swal2-icon).swal2-error {
+  border-color: #cf3010 !important;
+  color: white !important;
+  background-color: #cf3010 !important;
+}
+
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-circular-line"][class$="left"],
+div:where(.swal2-icon).swal2-success
+  [class^="swal2-success-circular-line"][class$="right"] {
+  background-color: transparent !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-close):focus {
+  box-shadow: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-close):hover {
+  color: inherit !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: burlywood !important;
+  border-radius: 3% !important;
+  -webkit-border-radius: 3% !important;
+  -moz-border-radius: 3% !important;
+  -ms-border-radius: 3% !important;
+  -o-border-radius: 3% !important;
+}
+
+@media (max-width: 767px) {
+  ol,
+  ul {
+    padding-left: 0rem !important;
+  }
+}

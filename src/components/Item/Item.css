@@ -73,10 +73,6 @@ img {
   height: auto;
 }
 
-.row-mio {
-  width: 100%;
-  text-align: center;
-}
 .no-selection {
   user-select: none;
 }
@@ -111,21 +107,6 @@ img {
 
 .thumb-wrapper:hover {
   box-shadow: 2px 2px 15px black;
-  /* transform: scale(1.01);
-  -webkit-transform: scale(1.01);
-  -moz-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  -o-transform: scale(1.01); */
-}
-
-.wish-icon {
-  position: absolute;
-  right: 5px;
-  top: 0px;
-  z-index: 99;
-  cursor: pointer;
-  font-size: 18px;
-  color: #abb0b8;
 }
 
 article {
@@ -141,15 +122,9 @@ p {
   padding: 0 !important;
 }
 
-.product-precio {
-  font-size: 17px;
-}
-
-.card-img-top {
-  border-radius: 10px !important;
-}
-
-.flexear {
-  display: flex;
-  justify-content: space-between;
+.stockless {
+  position: absolute;
+  top: 24%;
+  right: 15%;
+  left: 15%;
 }

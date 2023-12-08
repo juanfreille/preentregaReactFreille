@@ -1,26 +1,58 @@
-.btn-plus-minus {
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border-radius: 5px 5px;
-  font-size: 17px;
-  border: 0;
-  width: 10%;
-  margin: 6%;
+.product-details-quantity {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
-.bottom-detail {
-  margin: 0 0 8% 0;
+.quantity-select {
+  display: inline-block;
+  position: relative;
+  max-width: 80px;
+  vertical-align: middle;
 }
 
-.btn-agregar-carrito-detail {
-  text-transform: uppercase;
-  color: white;
-  background-color: black;
-  border-radius: 5px 5px;
-  inline-size: -webkit-fill-available;
+.quantity-select input {
+  text-align: center;
+  padding: 0 15px;
+  height: 38px;
+}
+
+.quantity-select .qtybutton.dec {
+  left: 0;
+  right: auto;
+}
+
+.quantity-select .qtybutton.inc {
+  right: 0;
+  left: auto;
+}
+
+.quantity-select .qtybutton {
+  position: absolute;
+  top: 50%;
+  height: 26px;
+  width: 30px;
+  line-height: 25px;
+  margin-top: -15.5px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.quantity-select input,
+.quantity-select select {
+  height: 40px;
+  padding: 0 15px;
+}
+.quantity-select input,
+.quantity-select select,
+.quantity-select textarea {
+  width: 100%;
   font-size: 16px;
-  border: 0;
-  padding: 0.5rem 1rem;
-  margin: 0 2rem;
+}
+
+.price-box .pricebox-price {
+  font-size: 2rem;
+  font-weight: 700;
 }

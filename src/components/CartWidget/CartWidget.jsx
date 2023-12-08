@@ -1,17 +1,20 @@
-import React from "react";
-import "./CartWidget.css";
+import React, { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import "./CartWidget.css";
 
 const CartWidget = () => {
+  const { getTotalItems } = useContext(CartContext);
+
   return (
     <div className="header__nav-user">
       <Link to="/carrito" className="carrito-text">
         <AiOutlineShoppingCart className="imagen-carrito" />
-        <span id="numeroCarrito" className="badge rounded-circle">
-          5
+        <span className="numeroCarrito badge rounded-circle">
+          {getTotalItems()}
         </span>
-        <div className="carrito-nav fuente-copada texto-xs">MI CARRITO</div>
+        <div className="carrito-nav uppercase">mi carrito</div>
       </Link>
     </div>
   );

@@ -25,19 +25,23 @@
   border-radius: var(--bs-badge-border-radius);
 }
 
-#numeroCarrito {
-  position: absolute;
-  top: 13%;
-  left: 22%;
-  background: red;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 2px;
+.numeroCarrito {
+  position: absolute !important;
+  top: 13% !important;
+  left: 20% !important;
+  background: #cf3010 !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: white !important;
+  padding: 2px !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
 }
 
 .carrito-text {
@@ -56,7 +60,7 @@
   color: #6c6c6c;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 0 0 0 1em;
+  font-size: var(--bs-nav-link-font-size);
 }
 
 .imagen-carrito {
@@ -65,7 +69,7 @@
 }
 
 @media (max-width: 576px) {
-  #numeroCarrito {
+  .numeroCarrito {
     left: 54%;
   }
   .header__nav-user {
@@ -74,4 +78,15 @@
   .header__nav-user div {
     display: none;
   }
+}
+
+.elim-cart {
+  position: absolute !important;
+  top: 1% !important;
+  left: 98.5% !important;
+}
+.elim-cart2 {
+  position: absolute !important;
+  top: 77% !important;
+  left: 98.5% !important;
 }
